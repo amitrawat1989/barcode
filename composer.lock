@@ -1,0 +1,113 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "066d1b9bdc2140f616a4b536b3eb1675",
+    "packages": [
+        {
+            "name": "barcode-bakery/barcode-1d",
+            "version": "6.0.0",
+            "dist": {
+                "type": "path",
+                "url": "D:/xampp/htdocs/barcode-bakery/packages/barcode-1d",
+                "reference": "6265101593d875180520f4668d13745cc239bf25",
+                "shasum": null
+            },
+            "require": {
+                "ext-gd": "*",
+                "php": ">=5.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BarcodeBakery\\Barcode\\": "src"
+                }
+            },
+            "license": [
+                "Commercial",
+                "CC-BY-NC-ND-4.0"
+            ],
+            "authors": [
+                {
+                    "name": "Jean-Sébastien Goupil",
+                    "email": "contact@barcodebakery.com"
+                }
+            ],
+            "description": "Generates 1D barcodes from a PHP server to a file or HTML document.",
+            "homepage": "http://www.barcodebakery.com",
+            "keywords": [
+                "bakery",
+                "barcode",
+                "codabar",
+                "code11",
+                "code128",
+                "code39",
+                "code39extended",
+                "code93",
+                "ean-13",
+                "ean-8",
+                "ean13",
+                "ean8",
+                "generator",
+                "i25",
+                "isbn",
+                "msi",
+                "s25",
+                "upc-a",
+                "upc-e",
+                "upcext2",
+                "upcext5"
+            ],
+            "support": {
+                "email": "contact@barcodebakery.com",
+                "docs": "http://www.barcodebakery.com"
+            }
+        },
+        {
+            "name": "barcode-bakery/barcode-common",
+            "version": "6.0.0",
+            "dist": {
+                "type": "path",
+                "url": "D:/xampp/htdocs/barcode-bakery/packages/barcode-common",
+                "reference": "f85765ce48aaa04986bb507ac21b08d196479e0d",
+                "shasum": null
+            },
+            "require": {
+                "ext-gd": "*",
+                "php": ">=5.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BarcodeBakery\\Common\\": "src"
+                }
+            },
+            "license": [
+                "Commercial",
+                "CC-BY-NC-ND-4.0"
+            ],
+            "authors": [
+                {
+                    "name": "Jean-Sébastien Goupil",
+                    "email": "contact@barcodebakery.com"
+                }
+            ],
+            "description": "Base code for generating barcode with the Barcode Bakery library. See barcode-bakery/barcode-1d.",
+            "homepage": "http://www.barcodebakery.com",
+            "support": {
+                "email": "contact@barcodebakery.com",
+                "docs": "http://www.barcodebakery.com"
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

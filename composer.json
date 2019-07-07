@@ -1,0 +1,19 @@
+{
+    "require": {
+        "barcode-bakery/barcode-common": "*",
+        "barcode-bakery/barcode-1d": "*"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "D:/xampp/htdocs/barcode-bakery/packages/barcode-common"
+        },
+        {
+            "type": "path",
+            "url": "D:/xampp/htdocs/barcode-bakery/packages/barcode-1d"
+        }, 
+        {
+            "packagist.org": false
+        }
+    ]
+}
